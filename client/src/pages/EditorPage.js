@@ -134,7 +134,7 @@ export default function EditorPage() {
       w:Math.round(Math.min(cw,f.nw)), h:Math.round(Math.min(ch,f.nh))
     };
   },[]);
-
+// Hi////
   // ── APPLY FRAME ──
   const applyFrame = useCallback((fx,fy,fw,fh,off,z)=>{
     const idx = activeIdx; if(idx<0||!files[idx]) return;
